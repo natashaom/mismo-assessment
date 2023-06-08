@@ -1,0 +1,25 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: #b2b5b5;
+  }
+  
+  .todo-item h2 {
+    color: #3a3a3a;
+    font-size: 1rem;
+    flex: 1;
+    margin: 0 1rem;
+    color: white;
+  }
+  
+
+  @media (min-width: 580px) {
+  
+    .todo-item__description h2 {
+      font-size: 1.25rem;
+    }
+
+  }
